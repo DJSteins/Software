@@ -7,6 +7,7 @@
 #include "thunderbots_msgs/Team.h"
 #include "util/constants.h"
 #include "util/timestamp.h"
+#include "spdlog/spdlog.h"
 
 // Variables we need to maintain state
 // In an anonymous namespace so they cannot be seen/accessed externally

@@ -57,6 +57,9 @@ catkin_package(
         DEPENDS message_runtime
         )
 
+# Find spdlog, our logging utility
+find_package(spdlog REQUIRED)
+
 ###########
 ## Build ##
 ###########

@@ -7,6 +7,7 @@
 #include "thunderbots_msgs/Team.h"
 #include "util/constants.h"
 #include "util/timestamp.h"
+#include "ros/console.h"
 #include "spdlog/spdlog.h"
 
 // Variables we need to maintain state
@@ -74,6 +75,7 @@ int main(int argc, char **argv)
     // Main loop
     while (ros::ok())
     {
+        std::cout << "HELLO" << std::endl;
         // Spin once to let all necessary callbacks run
         // These callbacks will update the AI's world state
         ros::spinOnce();

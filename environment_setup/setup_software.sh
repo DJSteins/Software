@@ -200,6 +200,7 @@ host_software_packages=(
     clang-format
     protobuf-compiler
     libprotobuf-dev
+    libspdlog-dev
 )
 sudo apt-get install ${host_software_packages[@]} -y
 if [ $? -ne 0 ]; then
